@@ -1,0 +1,101 @@
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    /* padding: 8px; */
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+    background-color: rgb(21, 19, 19);
+    margin-left: -20px;
+    padding-left: 20px;
+    margin-right: -20px;
+    padding-right: 20px;
+   
+}
+
+main {
+
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    /* background-image: url("https://yt3.ggpht.com/YKvjbqFF4H48ldlw0Pj6c5wBxrbrnRxzK9mUmJD4ariyxzSjK9opuELUtdrz50rtLRE10wXtKA=s900-c-k-c0x00ffffff-no-rj");
+    background-size: cover;
+    background-repeat: no-repeat; */ 
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.websiteName {
+    flex-grow: 1;
+    padding-left: 20px;
+    width: 160px;
+}
+
+.jean {
+    text-align: right;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;  
+}
+
+.filmWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 0;
+}
+
+.film {
+    display: block;
+    height: 200px;
+    width: 250px;
+    border: 1px solid red;
+
+}
+.hidden {
+    display: none;
+}
+
+.input {
+    margin-top: 20px;
+}
+
+.websiteName {
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+
+
+.rightTopHeader {
+    display: flex;
+    align-items: center;
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .topHeader {
+   flex-direction: column;
+   align-items: flex-start;
+  }  
+  .websiteName {
+
+  }
+}
+
+
+
+
